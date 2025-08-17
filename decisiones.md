@@ -24,3 +24,9 @@ Creamos esta nueva rama porque lo pedía la consigna y para no modificar la bran
 Cada commit tiene su fundamento en que explica a grandes rasgos que es lo que se agrega.
 
 Punto 3:
+
+Creamos una rama nueva con el "git branch hotfix" luego me muevo a esa rama con el "git checkout hotfix".
+Allí voy al archivo donde tengo el error a resolver(app.js) y lo soluciono, luego hago commit cuando está listo.
+Después de esto me muevo a la rama main con "git checkout main" y hago el merge con "git merge hotfix"
+También hago lo mismo para mi rama branchFuncionalidad.
+Lo integramos con merge porque como no se modificó la rama main entonces git hace todo el trabajo de mover punteros para que los commits de la rama hotfix queden efectuados en la rama main.
