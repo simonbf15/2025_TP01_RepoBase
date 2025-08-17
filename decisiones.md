@@ -30,3 +30,18 @@ Allí voy al archivo donde tengo el error a resolver(app.js) y lo soluciono, lue
 Después de esto me muevo a la rama main con "git checkout main" y hago el merge con "git merge hotfix"
 También hago lo mismo para mi rama branchFuncionalidad.
 Lo integramos con merge porque como no se modificó la rama main entonces git hace todo el trabajo de mover punteros para que los commits de la rama hotfix queden efectuados en la rama main.
+
+Punto 4:
+Para hacer el PR primero fuimos al repositorio de ingsoft3ucc y forkee el repo a mi cuenta de github, ahi hice el push a ese repo forkeado.
+Después de esto fui al repo ingsoft3ucc y cree un PR con el repo que tengo en mi cuenta.
+
+
+Punto 5:
+Para crear el tag primero voy a la branch la cual esté funcionando, es decir no haya errores por solucionar y que esté todo andando. 
+Allí creo el tag con el comando
+
+git tag -a v1.0 -m "v1.0 - version estable inicial"
+
+Y luego pusheo esta versión.
+
+git push origin v1.0
